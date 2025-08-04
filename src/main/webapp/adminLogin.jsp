@@ -8,7 +8,7 @@
 <script type="text/javascript">
 	function loginCheck() {
 		if (document.login.adminId.value.length==0 || document.login.adminPw.length==0){
-			alert("아이디, 비밀번호는 필수 입력 사항입니다.")
+			alert("아이디, 비밀번호는 필수 입력 사항입니다.");
 			document.login.adminId.focus(); // 해당 폼으로 커서이동
 			return false;
 		}
